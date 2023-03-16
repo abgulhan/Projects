@@ -1,6 +1,6 @@
 # PhD-Projects
 
-Projects from my PhD in Penn State University, Computer Science and Engineering department.
+Projects from my PhD in Penn State University, Computer Science and Engineering department. For a list of my undergrad projects click [here](https://github.com/abgulhan/Undergrad-Projects)
 
 
  | Project Name | Description | Topics |
