@@ -1,0 +1,73 @@
+weighted 
+------------------------------------
+Overall training accuracy: 0.9272600825791617
+Overall testing accuracy: 0.7358096372123561
+
+micro
+Overall training accuracy: 0.9274478971490652
+Overall testing accuracy: 0.7395689669683894
+
+macro
+Overall training accuracy: 0.9288926249492266
+Overall testing accuracy: 0.7315342888977103
+
+
+-------------
+old norm (all global norm)
+Overall training accuracy: 0.9330853296724841
+Overall testing accuracy: 0.7522408011017634
+
+all column norm
+Overall training accuracy: 0.9274478971490652
+Overall testing accuracy: 0.7395689669683894
+
+no norm
+Overall training accuracy: 0.9331254965883347
+Overall testing accuracy: 0.7517368704426222
+
+
+column only coord
+Overall training accuracy: 0.9228107507147397
+Overall testing accuracy: 0.672863389029542
+
+half global & half global
+Overall training accuracy: 0.9323259422905501
+Overall testing accuracy: 0.7485221713182862
+
+both column and global norm hybrid (column for coord, global for pressure)
+Overall training accuracy: 0.9271187123979752
+Overall testing accuracy: 0.7373058567071166
+============
+Random Forest with global norm
+Overall training accuracy: 1.0
+Overall testing accuracy: 0.7582044371442993
+Overall training accuracy: 1.0
+Overall testing accuracy: 0.7627030487251387
+
+Overall training accuracy: 0.9999978939831097, std: 6.318050670772735e-06
+Overall testing accuracy: 0.7634190085496827, std: 0.03234023740551268
+
+KNN with global norm
+Overall training accuracy: 0.9329975649552129
+Overall testing accuracy: 0.7541098427971374
+
+KNN filter no wrapper
+Overall training accuracy: 0.9298887649974731, std: 0.0009960742121234223
+Overall testing accuracy: 0.7437321436590778, std: 0.025242763972288664
+
+KNN no filter no wrapper
+Overall training accuracy: 0.9286055060673346, std: 0.0012353565269680993
+Overall testing accuracy: 0.6618574688695533, std: 0.04186103959291393
+
+
+================
+varying wrapper model
+Random Forest with wrapper KNN
+
+
+Random Forest with wrapper decision tree
+Overall training accuracy: 0.9999978939831097, std: 6.318050670772735e-06
+Overall testing accuracy: 0.751594034196641, std: 0.03955460048340111
+
+
+data["feat_names"] has shape (3871,). Pressure indexes are 2 lines for some reason
