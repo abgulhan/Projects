@@ -1,0 +1,11 @@
+torch
+numpy
+tqdm
+pygame
+gym==0.23.0
+numpy
+matplotlib
+ffmpeg
+imageio-ffmpeg
+moviepy
+tensorflow
